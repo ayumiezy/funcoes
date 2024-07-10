@@ -57,5 +57,6 @@ function mostraAlternativas(){
         botaoAlternativas.textContent = alternativa;
         caixaAlternativas.appendChild(botaoAlternativas);
 }
+}
 
 mostraPergunta();
