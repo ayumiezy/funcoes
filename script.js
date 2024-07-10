@@ -60,3 +60,4 @@ function mostraAlternativas(){
 }
 
 mostraPergunta();
+mostraAlternativas();
