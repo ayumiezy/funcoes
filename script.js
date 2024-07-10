@@ -50,14 +50,12 @@ function mostraPergunta() {
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
-
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
+function mostraAlternativas() {
+    for(const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
+        botaoAlternativa.textContent = alternativa;
         caixaAlternativas.appendChild(botaoAlternativas);
-}
+    }
 }
 
 mostraPergunta();
-mostraAlternativas();
